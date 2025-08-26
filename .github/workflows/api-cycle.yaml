@@ -8,6 +8,9 @@ jobs:
   validate:
     name: Validate OpenAPI documentation
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       # Check out the repository
       - uses: actions/checkout@v2
