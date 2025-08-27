@@ -9,7 +9,7 @@ jobs:
     name: Validate OpenAPI documentation
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      checks: write
 
     steps:
       # Check out the repository
